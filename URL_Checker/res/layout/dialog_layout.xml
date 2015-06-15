@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/customboder"
+        android:layoutMode="opticalBounds"
+        android:overScrollMode="always"
+        android:stretchColumns="1" >
+
+        <LinearLayout
+            android:id="@+id/LinearLa"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dialog_labelurl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/urlexam"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#007bff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Lineaut2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/test"
+            android:orientation="vertical"
+            android:paddingBottom="1dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Trustworthiness"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#007BFF" />
+
+            <LinearLayout
+                android:id="@+id/Lineayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+                <ImageView
+                    android:id="@+id/dialog_imagetrust"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:contentDescription="@string/Excellent"
+                    android:src="@drawable/r1" />
+
+                <TextView
+                    android:id="@+id/dialog_label_trust_repu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    
+                    android:text="Rating scale"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Linet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/test"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Child_safety"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#007BFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:id="@+id/dialog_image_child"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:contentDescription="@string/Excellent"
+                    android:src="@drawable/r1" />
+
+                <TextView
+                    android:id="@+id/dialog_label_child"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    android:text="Rating scale"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_linearforcategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/test"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/basdn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" 
+         android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dialog_btnCheck"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Check" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dialog_btnContinue"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Continue" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dialog_btnCancel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

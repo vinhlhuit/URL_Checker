@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a3"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customboder"
+        android:layoutMode="opticalBounds"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/About"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/Lineayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/imagetrust"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:contentDescription="@string/Excellent"
+                android:src="@drawable/asas" />
+
+            <TextView
+                android:id="@+id/label_trust_repu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:text="@string/Dong"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Lisout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/imstrust"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:contentDescription="@string/Excellent"
+                android:src="@drawable/asas" />
+
+            <TextView
+                android:id="@+id/labsst_repu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:text="@string/Khoi"
+                android:textSize="18sp" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Linesut2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/imastrust"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:contentDescription="@string/Excellent"
+                android:src="@drawable/asas" />
+
+            <TextView
+                android:id="@+id/lasrust_repu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:text="@string/Duc"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Lins2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/imstrt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:contentDescription="@string/Excellent"
+                android:src="@drawable/asas" />
+
+            <TextView
+                android:id="@+id/larepu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:text="@string/Vinh"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </TableLayout>
+
+</LinearLayout>

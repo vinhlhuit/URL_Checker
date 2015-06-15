@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">URL Checker</string>
+    <string name="action_settings">Settings</string>
+    <string name="url">URL or domain name</string>
+    <string name="example.com">http://example.com</string>
+    <string name="Check">Check</string>
+    <string name="urlexam">example.com</string>
+    <string name="Trustworthiness">Trustworthiness</string>
+    <string name="Excellent">Excellent</string>
+    <string name="Child_safety">Child safety</string>
+    <string name="Categories">Categories</string>
+    <string name="About">Developed by:</string>
+    <string name="Dong">Võ Đại Đồng - 11520067</string>
+    <string name="Khoi">Trần Hoàng Khôi - 11520182</string>
+    <string name="Vinh">Lê Hiển Vinh - 11520481</string>
+    <string name="Duc">Võ Văn Đức - 11520072</string>
+
+</resources>
